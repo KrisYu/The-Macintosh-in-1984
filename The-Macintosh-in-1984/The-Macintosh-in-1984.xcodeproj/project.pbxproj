@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C815494620BD47D900C1CE23 /* KeyCaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = C815494520BD47D900C1CE23 /* KeyCaps.swift */; };
+		C853181620B93C82004B6DB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853181520B93C82004B6DB4 /* AppDelegate.swift */; };
+		C853181D20B93C82004B6DB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C853181C20B93C82004B6DB4 /* Assets.xcassets */; };
+		C853182820B93CD2004B6DB4 /* AZVerboseBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853182720B93CD2004B6DB4 /* AZVerboseBoot.swift */; };
+		C853182A20B93ECF004B6DB4 /* SystemSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853182920B93ECF004B6DB4 /* SystemSettings.swift */; };
+		C853182C20B941E2004B6DB4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C853182B20B941E2004B6DB4 /* Default-568h@2x.png */; };
+		C853183520B94450004B6DB4 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853183420B94450004B6DB4 /* ProgressBarView.swift */; };
+		C853183720B944C3004B6DB4 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853183620B944C3004B6DB4 /* FaceView.swift */; };
+		C853183920B944E9004B6DB4 /* RectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853183820B944E9004B6DB4 /* RectView.swift */; };
+		C853183B20B94504004B6DB4 /* AZBootWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853183A20B94504004B6DB4 /* AZBootWindow.swift */; };
+		C853184020B947FF004B6DB4 /* MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853183F20B947FF004B6DB4 /* MacApp.swift */; };
+		C853184220B9485D004B6DB4 /* MenuAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853184120B9485D004B6DB4 /* MenuAction.swift */; };
+		C853184620B94D91004B6DB4 /* AZToolButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853184520B94D91004B6DB4 /* AZToolButton.swift */; };
+		C853184820B94DE0004B6DB4 /* AZToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853184720B94DE0004B6DB4 /* AZToolBar.swift */; };
+		C853184B20B94FAB004B6DB4 /* MenuDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853184A20B94FAB004B6DB4 /* MenuDropDownView.swift */; };
+		C853184D20B94FD8004B6DB4 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853184C20B94FD8004B6DB4 /* Utils.swift */; };
+		C853184F20B950DD004B6DB4 /* AZMenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853184E20B950DD004B6DB4 /* AZMenuBar.swift */; };
+		C853185120B950F4004B6DB4 /* AZApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853185020B950F4004B6DB4 /* AZApplication.swift */; };
+		C853185320B95110004B6DB4 /* AZDesktop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853185220B95110004B6DB4 /* AZDesktop.swift */; };
+		C853185620B95821004B6DB4 /* Finder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C853185520B95821004B6DB4 /* Finder.swift */; };
+		C877FB3620CB7327008BD392 /* NotePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877FB3520CB7327008BD392 /* NotePad.swift */; };
+		C877FB3920CD17FF008BD392 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C877FB3820CD17FF008BD392 /* Calculator.swift */; };
+		C88D9F3220D4F9B7008239B9 /* HelpNotePad.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88D9F3120D4F9B7008239B9 /* HelpNotePad.swift */; };
+		C891D64820D603FC0064A62E /* Picasso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C891D64720D603FC0064A62E /* Picasso.swift */; };
+		C8B87FF920D3D244000DAD6C /* DesktopApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B87FF820D3D244000DAD6C /* DesktopApplication.swift */; };
+		C8B87FFB20D3D7FD000DAD6C /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B87FFA20D3D7FD000DAD6C /* AboutMe.swift */; };
+		C8D445C620BA485A00293C4E /* Puzzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D445C520BA485A00293C4E /* Puzzle.swift */; };
+		C8E5CDE820B98D6F00D6F5A7 /* AlarmClock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5CDE720B98D6F00D6F5A7 /* AlarmClock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C815494520BD47D900C1CE23 /* KeyCaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCaps.swift; sourceTree = "<group>"; };
+		C853181220B93C82004B6DB4 /* The-Macintosh-in-1984.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The-Macintosh-in-1984.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C853181520B93C82004B6DB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C853181C20B93C82004B6DB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C853182120B93C82004B6DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C853182720B93CD2004B6DB4 /* AZVerboseBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZVerboseBoot.swift; sourceTree = "<group>"; };
+		C853182920B93ECF004B6DB4 /* SystemSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemSettings.swift; sourceTree = "<group>"; };
+		C853182B20B941E2004B6DB4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C853183420B94450004B6DB4 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		C853183620B944C3004B6DB4 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		C853183820B944E9004B6DB4 /* RectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectView.swift; sourceTree = "<group>"; };
+		C853183A20B94504004B6DB4 /* AZBootWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZBootWindow.swift; sourceTree = "<group>"; };
+		C853183F20B947FF004B6DB4 /* MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacApp.swift; sourceTree = "<group>"; };
+		C853184120B9485D004B6DB4 /* MenuAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAction.swift; sourceTree = "<group>"; };
+		C853184520B94D91004B6DB4 /* AZToolButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZToolButton.swift; sourceTree = "<group>"; };
+		C853184720B94DE0004B6DB4 /* AZToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZToolBar.swift; sourceTree = "<group>"; };
+		C853184A20B94FAB004B6DB4 /* MenuDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDropDownView.swift; sourceTree = "<group>"; };
+		C853184C20B94FD8004B6DB4 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C853184E20B950DD004B6DB4 /* AZMenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZMenuBar.swift; sourceTree = "<group>"; };
+		C853185020B950F4004B6DB4 /* AZApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZApplication.swift; sourceTree = "<group>"; };
+		C853185220B95110004B6DB4 /* AZDesktop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AZDesktop.swift; sourceTree = "<group>"; };
+		C853185520B95821004B6DB4 /* Finder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finder.swift; sourceTree = "<group>"; };
+		C877FB3520CB7327008BD392 /* NotePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePad.swift; sourceTree = "<group>"; };
+		C877FB3820CD17FF008BD392 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		C88D9F3120D4F9B7008239B9 /* HelpNotePad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpNotePad.swift; sourceTree = "<group>"; };
+		C891D64720D603FC0064A62E /* Picasso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picasso.swift; sourceTree = "<group>"; };
+		C8B87FF820D3D244000DAD6C /* DesktopApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopApplication.swift; sourceTree = "<group>"; };
+		C8B87FFA20D3D7FD000DAD6C /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		C8D445C520BA485A00293C4E /* Puzzle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Puzzle.swift; sourceTree = "<group>"; };
+		C8E5CDE720B98D6F00D6F5A7 /* AlarmClock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C853180F20B93C82004B6DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C853180920B93C82004B6DB4 = {
+			isa = PBXGroup;
+			children = (
+				C853182B20B941E2004B6DB4 /* Default-568h@2x.png */,
+				C853181420B93C82004B6DB4 /* The-Macintosh-in-1984 */,
+				C853181320B93C82004B6DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C853181320B93C82004B6DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C853181220B93C82004B6DB4 /* The-Macintosh-in-1984.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C853181420B93C82004B6DB4 /* The-Macintosh-in-1984 */ = {
+			isa = PBXGroup;
+			children = (
+				C853181520B93C82004B6DB4 /* AppDelegate.swift */,
+				C891D64620D543D80064A62E /* Special */,
+				C877FB3720CB8E89008BD392 /* Apps */,
+				C853185420B95164004B6DB4 /* Interface */,
+				C853184420B94888004B6DB4 /* Core */,
+				C853184C20B94FD8004B6DB4 /* Utils.swift */,
+				C853181C20B93C82004B6DB4 /* Assets.xcassets */,
+				C853182120B93C82004B6DB4 /* Info.plist */,
+			);
+			path = "The-Macintosh-in-1984";
+			sourceTree = "<group>";
+		};
+		C853183C20B94520004B6DB4 /* Boot */ = {
+			isa = PBXGroup;
+			children = (
+				C853182720B93CD2004B6DB4 /* AZVerboseBoot.swift */,
+				C853183A20B94504004B6DB4 /* AZBootWindow.swift */,
+				C853183420B94450004B6DB4 /* ProgressBarView.swift */,
+				C853183620B944C3004B6DB4 /* FaceView.swift */,
+				C853183820B944E9004B6DB4 /* RectView.swift */,
+			);
+			path = Boot;
+			sourceTree = "<group>";
+		};
+		C853184420B94888004B6DB4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C853182920B93ECF004B6DB4 /* SystemSettings.swift */,
+				C853183F20B947FF004B6DB4 /* MacApp.swift */,
+				C853184120B9485D004B6DB4 /* MenuAction.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C853184920B94EA5004B6DB4 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				C853184520B94D91004B6DB4 /* AZToolButton.swift */,
+				C853184720B94DE0004B6DB4 /* AZToolBar.swift */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		C853185420B95164004B6DB4 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				C853183C20B94520004B6DB4 /* Boot */,
+				C853184A20B94FAB004B6DB4 /* MenuDropDownView.swift */,
+				C853184E20B950DD004B6DB4 /* AZMenuBar.swift */,
+				C853185020B950F4004B6DB4 /* AZApplication.swift */,
+				C8B87FF820D3D244000DAD6C /* DesktopApplication.swift */,
+				C853185220B95110004B6DB4 /* AZDesktop.swift */,
+				C853184920B94EA5004B6DB4 /* ToolBar */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		C877FB3720CB8E89008BD392 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				C853185520B95821004B6DB4 /* Finder.swift */,
+				C8E5CDE720B98D6F00D6F5A7 /* AlarmClock.swift */,
+				C8D445C520BA485A00293C4E /* Puzzle.swift */,
+				C815494520BD47D900C1CE23 /* KeyCaps.swift */,
+				C877FB3520CB7327008BD392 /* NotePad.swift */,
+				C877FB3820CD17FF008BD392 /* Calculator.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		C891D64620D543D80064A62E /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				C8B87FFA20D3D7FD000DAD6C /* AboutMe.swift */,
+				C88D9F3120D4F9B7008239B9 /* HelpNotePad.swift */,
+				C891D64720D603FC0064A62E /* Picasso.swift */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C853181120B93C82004B6DB4 /* The-Macintosh-in-1984 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C853182420B93C82004B6DB4 /* Build configuration list for PBXNativeTarget "The-Macintosh-in-1984" */;
+			buildPhases = (
+				C853180E20B93C82004B6DB4 /* Sources */,
+				C853180F20B93C82004B6DB4 /* Frameworks */,
+				C853181020B93C82004B6DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The-Macintosh-in-1984";
+			productName = "The-Macintosh-in-1984";
+			productReference = C853181220B93C82004B6DB4 /* The-Macintosh-in-1984.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C853180A20B93C82004B6DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = XueYu;
+				TargetAttributes = {
+					C853181120B93C82004B6DB4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C853180D20B93C82004B6DB4 /* Build configuration list for PBXProject "The-Macintosh-in-1984" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C853180920B93C82004B6DB4;
+			productRefGroup = C853181320B93C82004B6DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C853181120B93C82004B6DB4 /* The-Macintosh-in-1984 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C853181020B93C82004B6DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C853181D20B93C82004B6DB4 /* Assets.xcassets in Resources */,
+				C853182C20B941E2004B6DB4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C853180E20B93C82004B6DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C815494620BD47D900C1CE23 /* KeyCaps.swift in Sources */,
+				C853183B20B94504004B6DB4 /* AZBootWindow.swift in Sources */,
+				C853184020B947FF004B6DB4 /* MacApp.swift in Sources */,
+				C877FB3920CD17FF008BD392 /* Calculator.swift in Sources */,
+				C853185320B95110004B6DB4 /* AZDesktop.swift in Sources */,
+				C8D445C620BA485A00293C4E /* Puzzle.swift in Sources */,
+				C853184B20B94FAB004B6DB4 /* MenuDropDownView.swift in Sources */,
+				C853182820B93CD2004B6DB4 /* AZVerboseBoot.swift in Sources */,
+				C88D9F3220D4F9B7008239B9 /* HelpNotePad.swift in Sources */,
+				C853185620B95821004B6DB4 /* Finder.swift in Sources */,
+				C8B87FF920D3D244000DAD6C /* DesktopApplication.swift in Sources */,
+				C853184220B9485D004B6DB4 /* MenuAction.swift in Sources */,
+				C853184F20B950DD004B6DB4 /* AZMenuBar.swift in Sources */,
+				C853184D20B94FD8004B6DB4 /* Utils.swift in Sources */,
+				C891D64820D603FC0064A62E /* Picasso.swift in Sources */,
+				C8B87FFB20D3D7FD000DAD6C /* AboutMe.swift in Sources */,
+				C853183520B94450004B6DB4 /* ProgressBarView.swift in Sources */,
+				C853181620B93C82004B6DB4 /* AppDelegate.swift in Sources */,
+				C853182A20B93ECF004B6DB4 /* SystemSettings.swift in Sources */,
+				C8E5CDE820B98D6F00D6F5A7 /* AlarmClock.swift in Sources */,
+				C853185120B950F4004B6DB4 /* AZApplication.swift in Sources */,
+				C877FB3620CB7327008BD392 /* NotePad.swift in Sources */,
+				C853184820B94DE0004B6DB4 /* AZToolBar.swift in Sources */,
+				C853183920B944E9004B6DB4 /* RectView.swift in Sources */,
+				C853184620B94D91004B6DB4 /* AZToolButton.swift in Sources */,
+				C853183720B944C3004B6DB4 /* FaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C853182220B93C82004B6DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C853182320B93C82004B6DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C853182520B93C82004B6DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2UHX34QKF;
+				INFOPLIST_FILE = "The-Macintosh-in-1984/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.The-Macintosh-in-1984";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C853182620B93C82004B6DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2UHX34QKF;
+				INFOPLIST_FILE = "The-Macintosh-in-1984/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xueyu.The-Macintosh-in-1984";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C853180D20B93C82004B6DB4 /* Build configuration list for PBXProject "The-Macintosh-in-1984" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C853182220B93C82004B6DB4 /* Debug */,
+				C853182320B93C82004B6DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C853182420B93C82004B6DB4 /* Build configuration list for PBXNativeTarget "The-Macintosh-in-1984" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C853182520B93C82004B6DB4 /* Debug */,
+				C853182620B93C82004B6DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C853180A20B93C82004B6DB4 /* Project object */;
+}
