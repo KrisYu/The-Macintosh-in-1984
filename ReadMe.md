@@ -2,9 +2,8 @@ Sometime ago I met this terrific project on github: [The-Macintosh-Project](http
 
 I want to know how does it work, Playground Project is cool, but won't it be cooler if I turn it into iPad/iPhone App. 
 
-So I made it.below is the video I run this on my old iPad mini:
+So I made it, below is the video I run this on my old iPad mini:
 
-<iframe src="//player.bilibili.com/player.html?aid=25146060&cid=42593659&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 [![bilibili](bilibili.png)](https://www.bilibili.com/video/av25146060/)
 
@@ -43,5 +42,9 @@ Antonio Zaitoun already explains about the project. here I add some notes about 
 - MacAppDesktopView (UIView): The icon/image on desktop. init from DesktopAppDataSource. DesktopApplication conform to this delegate and provide the init for the view.
 - DesktopApplication:  pure class, used to show/connect MacAppDesktopView and AZApplication.
 
+--------
 
+read more about the Macintosh in 1984, aka System 1:
 
+- [GUIs about The Macintosh in 1984](http://toastytech.com/guis/macos1.html)
+- [System 1](https://en.wikipedia.org/wiki/System_1)
